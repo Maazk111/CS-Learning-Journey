@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Practice Page</title>
+</head>
+<body>
+
+  <!-- Heading -->
+  <h1 id="mainHeading">Welcome to My Page</h1>
+
+  <!-- Image -->
+  <img id="myImage" src="https://via.placeholder.com/150" alt="Placeholder Image">
+
+  <br><br>
+
+  <!-- Existing Hyperlink -->
+  <a id="myLink" href="https://www.example.com" target="_blank">Visit Example.com</a>
+
+  <br><br>
+
+  <!-- Container to add new link -->
+  <div id="linkContainer"></div>
+
+  <br>
+
+  <!-- Buttons -->
+  <button onclick="changeText()">Change Text</button>
+  <button onclick="changeImage()">Change Image</button>
+  <button onclick="changeLink()">Change Link</button>
+  <button onclick="createNewLink()">Create New Link</button>
+  <button onclick="resetAll()">Reset</button>
+
+  <script>
+    function changeText() {
+      document.getElementById('mainHeading').innerText = "Text Changed!";
+    }
+
+    function changeImage() {
+      document.getElementById('myImage').src = "https://via.placeholder.com/150/ff0000/ffffff?text=New+Image";
+    }
+
+    function changeLink() {
+      const link = document.getElementById('myLink');
+      link.href = "https://www.google.com";
+      link.innerText = "Go to Google";
+    }
+
+    function createNewLink() {
+      const container = document.getElementById('linkContainer');
+
+      // Only create if it doesn't already exist
+      if (!document.getElementById('newLink')) {
+        const newLink = document.createElement('a');
+        newLink.id = 'newLink';
+        newLink.href = 'https://www.wikipedia.org';
+        newLink.target = '_blank';
+        newLink.innerText = 'Visit Wikipedia';
+
+        // Optional: add a break after it
+        container.appendChild(newLink);
+        container.appendChild(document.createElement('br'));
+      }
+    }
+
+    function resetAll() {
+      document.getElementById('mainHeading').innerText = "Welcome to My Page";
+      document.getElementById('myImage').src = "https://via.placeholder.com/150";
+      
+      const link = document.getElementById('myLink');
+      link.href = "https://www.example.com";
+      link.innerText = "Visit Example.com";
+
+      // Remove the dynamically created link if it exists
+      const newLink = document.getElementById('newLink');
+      if (newLink) {
+        newLink.remove();
+      }
+    }
+  </script>
+
+</body>
+</html>

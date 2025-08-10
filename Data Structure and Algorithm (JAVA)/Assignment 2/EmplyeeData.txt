@@ -1,0 +1,10 @@
+1,Maaz Khan,Engineering,80000,5000
+2,Farrukh Iqbal,Marketing,75000,4000
+3,Fuzail,Finance,72000,3500
+4,Zohaib Shamim,Sales,70000,3000
+5,Raif,Human Resources,68000,3200
+6,Ayesha Ali,Product Development,82000,5500
+7,Hassan Mehmood,Customer Support,65000,2800
+8,Sara Iqbal,IT,76000,4200
+9,Bilal Ahmed,Operations,70000,3300
+10,Nadia Khan,Legal,77000,4500

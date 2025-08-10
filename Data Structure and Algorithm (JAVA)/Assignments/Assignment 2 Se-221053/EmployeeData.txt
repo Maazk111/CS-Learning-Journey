@@ -1,0 +1,15 @@
+Amir Ali, IT, 101
+Hina Zafar, Human Resources, 102
+Tariq Mahmood, Marketing, 103
+Farah Ilyas, Finance, 104
+Khalid Rashid, Sales, 105
+Sana Sheikh, Administration, 106
+Asif Javed, Research, 107
+Rania Khalil, Development, 108
+Junaid Hassan, Operations, 109
+Anisa Baig, Customer Service, 110
+Arsalan Khan, Logistics, 111
+Mehreen Nadeem, Legal, 112
+Imran Qureshi, Maintenance, 113
+Samina Azhar, Public Relations, 114
+Haris Naveed, Design, 115

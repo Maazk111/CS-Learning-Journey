@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Signup Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+    }
+    .container {
+      width: 350px;
+      margin: 40px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px #ccc;
+    }
+    h2 {
+      text-align: center;
+    }
+    label {
+      font-weight: bold;
+      display: block;
+      margin-top: 12px;
+    }
+    input[type="text"], input[type="number"], input[type="email"], input[type="password"] {
+      width: 100%;
+      padding: 8px;
+      margin-top: 4px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    input[type="submit"] {
+      margin-top: 16px;
+      width: 100%;
+      padding: 10px;
+      background: #4caf50;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background: #45a049;
+    }
+    /* Table style */
+    table {
+      margin: 30px auto 0 auto;
+      border-collapse: collapse;
+      width: 80%;
+      background: #fff;
+    }
+    th, td {
+      border: 1px solid #4caf50;
+      padding: 10px 15px;
+      text-align: left;
+    }
+    th {
+      background: #4caf50;
+      color: #fff;
+    }
+  </style>
+
+  <script>
+  // Assignment Operators Example
+  function showAssignmentOperators() {
+    let a = 5;
+    a += 3; // a = a + 3 => 8
+    alert("Assignment Operator Example:\nInitial value: 5\nAfter a += 3: " + a);
+  }
+
+  // Break Example
+  function breakExample() {
+    let numbers = [10, 20, 30, 40, 50];
+    let found = false;
+    for (let i = 0; i < numbers.length; i++) {
+      if (numbers[i] === 30) {
+        alert("Break Example:\nFound 30 at index " + i + ". Breaking the loop.");
+        found = true;
+        break;
+      }
+    }
+    if (!found) alert("Number 30 not found.");
+  }
+
+  // Create Hyperlink Dynamically
+  function createHyperlink() {
+    const link = document.createElement("a");
+    link.href = "https://www.google.com";
+    link.target = "_blank";
+    link.textContent = "Go to Google (New Tab)";
+    document.getElementById("dynamic-link").appendChild(link);
+  }
+</script>
+
+</head>
+<body>
+  <div class="container">
+    <h2>Signup Form</h2>
+    <form action="http://localhost:3000/signup" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required placeholder="Enter your name">
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" required min="1" placeholder="Enter your age">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required placeholder="Enter your email">
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required placeholder="Enter password">
+
+      <input type="submit" value="Signup">
+    </form>
+  </div>
+
+  <!-- Table Example -->
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Email</th>
+    </tr>
+    <tr>
+      <td>Maaz Khan</td>
+      <td>22</td>
+      <td>Maaz@gmail.com</td>
+    </tr>
+    <tr>
+      <td>Rumaisa</td>
+      <td>21</td>
+      <td>rumaisa@gmail.com</td>
+    </tr>
+  </table>
+
+<div style="margin-top:20px; text-align:center;">
+  <button type="button" onclick="showAssignmentOperators()">Show Assignment Operator Example</button>
+  <button type="button" onclick="breakExample()">Show Break Example</button>
+  <button type="button" onclick="createHyperlink()">Create Hyperlink</button>
+  <div id="dynamic-link" style="margin-top:10px;"></div>
+</div>
+
+</body>
+</html>

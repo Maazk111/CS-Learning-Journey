@@ -1,0 +1,27 @@
+Enable | mode change of Router or Switch
+Configure Terminal   | Global access
+interface serial2/0 OR FastEthernet0/0   | Specific Access to the interface of switch or router
+ip address 192.168.1.1 255.255.255.0   | Assigns an IP address and subnet mask to the selected interface.
+no shutdown | Enables the interface (by default, interfaces are shut down).
+
+
+
+
+
+ 
+LAN Connection
+
+
+Enable 
+Configure terminal
+router rip
+network 192.168.1.0
+network 192.168.2.0
+exit
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+Object-Oriented Programming (OOP) Concepts:
+
+Class: A blueprint for creating objects, bundling data and methods.
+
+Object: An instance of a class, representing a real-world entity.
+
+Inheritance: A mechanism where a new class inherits properties and behavior from an existing class.
+
+Polymorphism: The ability of different classes to be treated as instances of the same class through inheritance.
+
+Abstraction: Hiding complex implementation details and showing only the necessary features of an object.
+
+Encapsulation: Keeping the data inside a class private, then exposing only the required parts via public methods.
+
+Method Overloading: Having methods in the same class with the same name but different parameters.
+
+Method Overriding: Redefining a method in a subclass that was already defined in a parent class.
+
+Constructor: A special method used to initialize objects.
+
+Interface: A completely abstract class used to group related methods with empty bodies.
+
+Association, Aggregation, and Composition: Types of relationships between objects, defining how they can interact and depend on each other.

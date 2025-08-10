@@ -1,0 +1,10 @@
+Maaz Khan, 30, StudentOfDHASUFFA
+Farrukh, 28,
+Fuzail, , Teacher
+Zohaib, 26,
+Raif, , Architect
+Hamza, 29, Software Developer
+Ayesha, 27,
+Talha, , Electrician
+Sana, , ,
+Ali, 34, Mechanic , 

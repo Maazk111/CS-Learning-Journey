@@ -1,0 +1,22 @@
+Data Structures and Algorithms Main Topics:
+
+1. Data Structures:
+   - Arrays
+   - Linked Lists
+   - Stacks
+   - Queues
+   - Trees
+   - Graphs
+   - Hash Tables
+
+2. Algorithms:
+   - Sorting Algorithms (e.g., Bubble Sort, Merge Sort, Quick Sort)
+   - Searching Algorithms (e.g., Linear Search, Binary Search)
+   - Graph Algorithms (e.g., Depth-First Search, Breadth-First Search, Dijkstra's Algorithm)
+   - Dynamic Programming
+   - Greedy Algorithms
+   - Backtracking Algorithms
+
+3. Complexity Analysis:
+   - Time Complexity
+   - Space Complexity
