@@ -1,9 +1,9 @@
-# 📚 Learnings Codes – Programming Practice Repository
+# 📚 CS-Learning-Journey — Programming Practice Repository
 
 ## 📌 Overview
 
-This repository contains my **practice code, lab work, and assignments** from different programming subjects and technologies.  
-It serves as a **personal coding archive**, covering **core programming fundamentals** to **advanced concepts** across multiple domains.
+This repository contains my **practice code, lab work, and assignments** across multiple computer science subjects and technologies.  
+It serves as a **personal coding archive**, covering **core programming fundamentals** through **advanced concepts**.
 
 ---
 
@@ -27,7 +27,7 @@ It serves as a **personal coding archive**, covering **core programming fundamen
 ### 4️⃣ Data Structure and Algorithm (JAVA)
 
 - Java implementations of DSA.
-- **Linked List variations, Trees, Graph Traversals, Sorting Algorithms**.
+- **Linked Lists, Trees, Graph Traversals, Sorting Algorithms**.
 - Includes assignments & small projects.
 
 ### 5️⃣ Database MySQL
@@ -37,24 +37,24 @@ It serves as a **personal coding archive**, covering **core programming fundamen
 
 ### 6️⃣ HTML and CSS
 
-- Practice HTML5 & CSS3 layouts and styling.
-- Topics: **Flexbox, Grid, Animations, Forms, Navigation Bars, Responsive Design**.
+- Practice with **HTML5/CSS3** layouts and styling.
+- Topics: **Flexbox, Grid, Animations, Forms, Navbars, Responsive Design**.
 
 ### 7️⃣ JavaScript
 
-- Small projects , exercises and all Concepts of JS.
-- Includes **Games** (Rock Paper Scissors, Number Guessing), **API Fetch**, **Weather App**, **Password Generator**, **Clocks**.
+- Small projects and exercises covering key **JS concepts**.
+- Includes **games** (Rock Paper Scissors, Number Guessing), **API fetch**, **Weather App**, **Password Generator**, **Clocks**.
 
 ### 8️⃣ React
 
 - Beginner React.js apps & components.
-- Topics include:
+- Topics:
   - **Component creation & props**
   - **State management**
   - **Event handling**
   - **Hooks**: `useState`, `useEffect`, `useRef`
 
-### 9️⃣ Computer Networks Cisco Packet Tracer
+### 9️⃣ Computer Networks (Cisco Packet Tracer)
 
 - Networking simulations & lab assignments.
 - Configurations for **DHCP**, **VLAN**, **Routing**, **FTP**, **Email Servers**.
@@ -69,13 +69,32 @@ It serves as a **personal coding archive**, covering **core programming fundamen
 - **Data Structures & Algorithms**
 - **Databases**: MySQL
 - **Networking**: Cisco Packet Tracer
-- **OOP Principles** in Java
+- **OOP Principles** (Java)
+- **IDE/Tools**: VS Code, IntelliJ IDEA, Eclipse, MySQL Workbench, Cisco Packet Tracer
 
 ---
 
 ## 🚀 How to Use
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/<your-username>/<repo-name>.git
-   ```
+1. **Clone**
+
+```bash
+git clone https://github.com/Maazk111/CS-Learning-Journey.git
+cd CS-Learning-Journey
+```
+
+### React Projects
+
+```bash
+cd React/my-react-app
+npm install
+npm run dev      # For Vite
+# or
+npm start        # For Create React App
+```
+
+## MySQL Scripts
+
+```bash
+mysql -u <user> -p < database.sql
+```
